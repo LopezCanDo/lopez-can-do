@@ -11,10 +11,10 @@
           frameJs: '../dist/js/h5p-standalone-frame.min.js',
           frameCss: '../dist/styles/h5p.css',
           h5pContent: '../workspace/content-example-1' <!-- Name of specific H5P content folder goes here -->,
-          displayOptions: { // OPTIONAL hide the frame or download, export etc. buttons they are visible by default
-          embed: false,
-          download: false
-  }
+          displayOptions: {
+            export: false,
+            download: false
+          }
         });
       });
     })(H5P.jQuery);
